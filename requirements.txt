@@ -4,4 +4,4 @@ flake8
 pinecone-client
 numpy
 pydantic
-pinecone-client
+
