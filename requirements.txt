@@ -1,7 +1,7 @@
+pinecone-client
 fastapi
 uvicorn
 flake8
-pinecone-client
 numpy
 pydantic
 
