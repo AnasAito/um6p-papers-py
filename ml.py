@@ -1,6 +1,15 @@
 
+import subprocess
+import sys
 
-import pinecone
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+try : 
+    import pinecone
+except : 
+    install('pinecone-client')
+    import pinecone
+    
 
 
 # init vector db 
