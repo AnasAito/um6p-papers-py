@@ -16,7 +16,7 @@ def get_sample() -> str:
 def post_sample(sample: str):
     return sample
 
-@app.post("/get_neighbors/")
+@app.post("/api/get_neighbors")
 def get_neighbors(paper_id:str, k:int=6):
     paper_emb =index.fetch([paper_id,])['vectors'][paper_id]['values']
 
