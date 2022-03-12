@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from ml import index
 app = FastAPI(
     title='Um-sc-search',
     description='Semantic search on um6p papers',
