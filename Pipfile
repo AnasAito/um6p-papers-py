@@ -12,6 +12,8 @@ uvicorn = "*"
 redis = "*"
 hiredis = "*"
 flake8 = "*"
+pinecone-client = "*"
+
 
 [requires]
 python_version = "3.8"
